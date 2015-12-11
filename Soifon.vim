@@ -1,7 +1,7 @@
-" Maintainer:	Patrick J. Anderson
-" Version:      1.0.1
-" Last Change:	February 23, 2009
-" Credits:      This is a modification of Mustang.vim color scheme
+" Maintainer:	Kitami Akiya
+" Version:      0.0.6
+" Last Change:	December 11, 2015
+" Credits:      This is a modification of BusyBee.vim color scheme
 
 set background=dark
 
