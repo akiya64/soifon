@@ -15,7 +15,7 @@ let colors_name = "soifon"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-  hi CursorLine    guibg=#202020 ctermbg=234
+  hi CursorLine    guibg=#303030 ctermbg=none cterm=underline
   hi CursorColumn  guibg=#202020 ctermbg=234
   hi MatchParen    guifg=#d0ffc0 guibg=#202020 gui=bold ctermfg=157 ctermbg=237 cterm=bold
   hi Pmenu 	   guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
