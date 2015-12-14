@@ -1,6 +1,6 @@
 " Maintainer:	Kitami Akiya
-" Version:      0.0.6
-" Last Change:	December 11, 2015
+" Version:      0.0.8
+" Last Change:	December 14, 2015
 " Credits:      This is a modification of BusyBee.vim color scheme
 
 set background=dark
