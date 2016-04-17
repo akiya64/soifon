@@ -26,7 +26,7 @@ hi Cursor       guifg=NONE    guibg=#626262 gui=none ctermbg=241
 hi Normal       guifg=#e2e2e5 guibg=#101010 gui=none ctermfg=253 ctermbg=234
 hi NonText      guifg=#909090 guibg=#101010 gui=none ctermfg=244 ctermbg=235
 hi LineNr       guifg=#606060 guibg=NONE gui=none ctermfg=244 ctermbg=232
-hi CursorLineNr guifg=#a0a0a0 guibg=NONE ctermbg=NONE gui=none ctermfg=244 ctermbg=232
+hi CursorLineNr guifg=#b0b0b0 guibg=NONE ctermbg=NONE gui=none ctermfg=244 ctermbg=232
 hi CursorLine   guifg=NONE	  guibg=#101010 gui=none ctermfg=253 ctermbg=234
 hi StatusLine   guifg=#d3d3d5 guibg=#303030 gui=none ctermfg=253 ctermbg=238
 hi Folded       guibg=#384048 guifg=#a0a8b0 gui=none ctermbg=4 ctermfg=248
