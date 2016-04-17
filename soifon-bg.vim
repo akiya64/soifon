@@ -22,12 +22,12 @@ if version >= 700
 endif
 
 " General colors
-hi Cursor       guifg=NONE    guibg=#626262 gui=none ctermbg=241
+hi Cursor       guifg=NONE    guibg=#808080 gui=none ctermbg=241
 hi Normal       guifg=#e2e2e5 guibg=black
 hi NonText      guifg=#909090 guibg=black gui=none ctermfg=244 ctermbg=235
 hi LineNr       guifg=#a0a0a0 guibg=NONE gui=none ctermfg=244 ctermbg=232
-hi CursorLineNr       guifg=#a0a0a0 guibg=NONE gui=none ctermfg=244 ctermbg=232
-hi CursorLine   guifg=#e2e2e5 guibg=black
+hi CursorLineNr guifg=#e0e0e0 guibg=NONE gui=none ctermfg=244 ctermbg=232
+hi CursorLine   guifg=NONE    guibg=black
 hi StatusLine   guifg=#d3d3d5 guibg=#303030 gui=none ctermfg=253 ctermbg=238
 hi Folded       guibg=#384048 guifg=#a0a8b0 gui=none ctermbg=4 ctermfg=248
 hi Title        guifg=#f6f3e8 guibg=NONE    gui=bold ctermfg=254 cterm=bold
