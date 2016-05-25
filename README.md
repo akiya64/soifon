@@ -1,6 +1,10 @@
-## Vim color scheme Based "BusyBee"
+## Vim color scheme 'Soifon'
 
-<https://github.com/vim-scripts/BusyBee>
+Dark background, syntax highlight yellow, orange and green color text.  
+Include 2 color scheme 'soifon' and 'soifon-bg'.
+'Soifon-bg' tranceparent background image.
+
+Soifon forked ['BusyBee' color scheme](https://github.com/vim-scripts/BusyBee).
 
 ### soifon
 
