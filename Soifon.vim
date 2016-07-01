@@ -22,17 +22,19 @@ if version >= 700
 endif
 
 " General colors
-hi Cursor       guifg=#000000 guibg=#e2e2e5 gui=NONE ctermbg=241
+hi Cursor       guifg=NONE guibg=#808080 gui=NONE ctermbg=241
 hi Normal       guifg=#e2e2e5 guibg=#101010 gui=NONE ctermfg=253 ctermbg=234
 hi NonText      guifg=#909090 guibg=#101010 gui=NONE ctermfg=244 ctermbg=235
 hi LineNr       guifg=#606060 guibg=NONE gui=NONE ctermfg=244 ctermbg=232
 hi CursorLineNr guifg=#a0a0a0 guibg=NONE ctermbg=NONE gui=NONE ctermfg=244 ctermbg=232
 hi CursorLine   guifg=NONE	  guibg=#101010 gui=NONE ctermfg=253 ctermbg=234
 hi StatusLine   guifg=#d3d3d5 guibg=#303030 gui=NONE ctermfg=253 ctermbg=238
-hi Folded       guibg=#384048 guifg=#a0a8b0 gui=NONE ctermbg=4 ctermfg=248
-hi Title        guifg=#f6f3e8 guibg=NONE    gui=bold ctermfg=254 cterm=bold
-hi Visual       guifg=#faf4c6 guibg=#3c414c gui=NONE ctermfg=254 ctermbg=4
+hi Folded       guibg=#fffe8e guifg=#aaaabb gui=NONE ctermbg=4 ctermfg=248
+hi Title        guifg=#fffe8e guibg=NONE    gui=bold ctermfg=254 cterm=bold
+hi Visual       guifg=#fffe8e guibg=#3c414c gui=NONE ctermfg=254 ctermbg=4
 hi SpecialKey   guifg=#808080 guibg=NONE gui=NONE ctermfg=244 ctermbg=236
+hi Title   guifg=#fffe8b ctermfg=148 gui=UNDERLINE
+hi Underlined   guifg=#ffbb6d
 
 " Syntax highlighting
 hi Comment      guifg=#a0a0a0 gui=italic ctermfg=244
@@ -41,14 +43,14 @@ hi Constant     guifg=#ffffff ctermfg=148
 hi Boolean      guifg=#b1d631 ctermfg=148
 
 hi Identifier   guifg=#fffe8b ctermfg=148
-hi Title   guifg=#fffe8b ctermfg=148 gui=NONE
 
 hi Statement    guifg=#fffe8e gui=NONE ctermfg=255
 hi Conditional  guifg=#b9fa40 ctermfg=255
 hi Repeat       guifg=#b9fa40 ctermfg=255
 hi Label        guifg=#b9fa40 ctermfg=255
+hi Exception    guifg=#b9fa40 ctermfg=255
+
 hi Operator     guifg=#ffffff ctermfg=255
-hi Exception    guifg=#b1e931 ctermfg=255
 
 hi PreProc      guifg=#faf4c6 ctermfg=230 gui=NONE
 
