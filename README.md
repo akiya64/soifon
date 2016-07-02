@@ -12,7 +12,7 @@ Soifon forked ['BusyBee' color scheme](https://github.com/vim-scripts/BusyBee).
 :color soifon
 ```
 
-<img src="https://raw.githubusercontent.com/wiki/akiya64/soifon/images/wp_php_scr.png">
+<img src="https://raw.githubusercontent.com/wiki/akiya64/soifon/images/soifon-0-9.png">
 
 
 ### soifon-bg
