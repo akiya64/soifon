@@ -1,5 +1,5 @@
 " Maintainer:   Kitami Akiya
-" Version:      0.0.8
+" Version:      0.0.9
 " Last Change:  December 14, 2015
 " Credits:      This is a modification of BusyBee.vim color scheme
 
