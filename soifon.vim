@@ -1,7 +1,7 @@
 " Maintainer:   Kitami Akiya
 " Version:      1.0
 " Last Change:  December 14, 2015
-" Credits:      This is a modification of BusyBee.vim color scheme
+" Credits:      This Color Scheme is forked from 'BusyBee' https://github.com/vim-scripts/BusyBee
 
 set background=dark
 
