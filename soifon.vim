@@ -16,7 +16,7 @@ let colors_name = "soifon"
 " Vim >= 7.0 specific colors
 if version >= 700
   hi CursorColumn  guibg=#202020 ctermbg=234
-  hi MatchParen    guifg=#b1d631 guibg=#202020 gui=bold ctermfg=148 ctermbg=237 cterm=bold
+  hi MatchParen    guifg=#b9fa40 guibg=#202020 gui=bold ctermfg=148 ctermbg=237 cterm=bold
   hi Pmenu     guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
   hi PmenuSel      guifg=#000000 guibg=#fffe8e ctermfg=255 ctermbg=228
 endif
@@ -39,15 +39,15 @@ hi Underlined   guifg=#ffbb6d ctermfg=214
 hi Comment      guifg=#a0a0a0 gui=italic ctermfg=244
 
 hi Constant     guifg=#ffffff ctermfg=15
-hi Boolean      guifg=#b1d631 ctermfg=148
+hi Boolean      guifg=#b9fa40 ctermfg=148
 
 hi Identifier   guifg=#fffe8e ctermfg=228
 
 hi Statement    guifg=#fffe8e gui=NONE ctermfg=228
-hi Conditional  guifg=#b1d631 ctermfg=148
-hi Repeat       guifg=#b1d631 ctermfg=148
-hi Label        guifg=#b1d631 ctermfg=148
-hi Exception    guifg=#b1d631 ctermfg=148
+hi Conditional  guifg=#b9fa40 ctermfg=148
+hi Repeat       guifg=#b9fa40 ctermfg=148
+hi Label        guifg=#b9fa40 ctermfg=148
+hi Exception    guifg=#b9fa40 ctermfg=148
 
 hi Operator     guifg=#ffffff ctermfg=15
 
