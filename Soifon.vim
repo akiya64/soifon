@@ -11,7 +11,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "soifon"
+let colors_name = "Soifon"
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -25,8 +25,8 @@ endif
 hi Cursor       guifg=NONE    guibg=#808080 gui=NONE ctermfg=244 ctermbg=235
 hi Normal       guifg=#e2e2e5 guibg=black gui=NONE ctermfg=253 ctermbg=234
 hi NonText      guifg=#909090 guibg=black gui=NONE ctermfg=238
-hi LineNr       guifg=#606060 guibg=NONE gui=NONE ctermfg=244
-hi CursorLineNr guifg=#a0a0a0 guibg=NONE gui=NONE ctermfg=244
+hi LineNr       guifg=#707070 guibg=NONE gui=NONE ctermfg=244
+hi CursorLineNr guifg=#ffffff guibg=NONE gui=NONE ctermfg=244
 hi CursorLine   guifg=NONE    guibg=black gui=NONE ctermfg=253
 hi StatusLine   guifg=#d3d3d5 guibg=#303030 gui=NONE ctermfg=250
 hi Folded       guibg=#fffe8e guifg=#aaaabb gui=NONE ctermfg=228
@@ -34,9 +34,10 @@ hi Visual       guifg=#fffe8e guibg=#3c414c gui=NONE ctermfg=228 ctermbg=238
 hi SpecialKey   guifg=#808080 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
 hi Title        guifg=#fffe8e gui=UNDERLINE ctermfg=228
 hi Underlined   guifg=#ffbb6d ctermfg=214
+hi String       guifg=#a8a8a8 gui=none ctermfg=148
 
 " Syntax highlighting
-hi Comment      guifg=#a0a0a0 gui=italic ctermfg=244
+hi Comment      guifg=#707070 ctermfg=244
 
 hi Constant     guifg=#ffffff ctermfg=15
 hi Boolean      guifg=#b9fa40 ctermfg=148
