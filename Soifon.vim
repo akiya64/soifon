@@ -26,9 +26,9 @@ hi Cursor       guifg=NONE    guibg=#808080 gui=NONE ctermfg=244 ctermbg=235
 hi Normal       guifg=#e2e2e5 guibg=black gui=NONE ctermfg=253 ctermbg=234
 hi NonText      guifg=#909090 guibg=black gui=NONE ctermfg=238
 hi LineNr       guifg=#707070 guibg=NONE gui=NONE ctermfg=244
-hi CursorLineNr guifg=#ffffff guibg=NONE gui=NONE ctermfg=244
-hi CursorLine   guifg=NONE    guibg=black gui=NONE ctermfg=253
-hi StatusLine   guifg=#d3d3d5 guibg=#303030 gui=NONE ctermfg=250
+hi CursorLineNr guifg=#e2e2e5 guibg=NONE gui=NONE ctermfg=244
+hi CursorLine   guifg=NONE    guibg=#303030 gui=NONE ctermfg=253
+hi StatusLine   guifg=#d3d3d5 guibg=black gui=NONE ctermfg=250
 hi Folded       guibg=#fffe8e guifg=#aaaabb gui=NONE ctermfg=228
 hi Visual       guifg=#fffe8e guibg=#3c414c gui=NONE ctermfg=228 ctermbg=238
 hi SpecialKey   guifg=#808080 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
@@ -58,7 +58,7 @@ hi Type         guifg=#a0a0a0 gui=NONE ctermfg=244
 
 hi Special      guifg=#ffbb6d gui=NONE ctermfg=214
 
-hi Todo         guifg=#303030 guibg=#ffbb6d gui=NONE ctermfg=235 ctermbg=214
+hi Todo         guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
 hi Error        guifg=#606060 guibg=#ff8989 gui=NONE ctermfg=208
 hi ErrorMsg     guifg=#000000 guibg=#ff8989 gui=NONE ctermfg=208
