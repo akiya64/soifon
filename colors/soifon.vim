@@ -67,7 +67,7 @@ else
 	hi CursorColumn  guibg=#c0c0c0 ctermbg=234
 	hi MatchParen    guifg=#20a020 guibg=#ffffff gui=bold ctermfg=148 ctermbg=237 cterm=bold
 	hi Pmenu     guifg=#000000 guibg=#ffffff ctermfg=255 ctermbg=238
-	hi PmenuSel      guifg=#000000 guibg=#90908 ctermfg=255 ctermbg=228
+	hi PmenuSel      guifg=#000000 guibg=#ffff70 ctermfg=255 ctermbg=228
 
 	" General colors
 	hi Cursor       guifg=#ffffff    guibg=#aabbaa gui=NONE ctermfg=244 ctermbg=235
@@ -80,7 +80,7 @@ else
 	hi Folded       guibg=#505050 guifg=#aaaaaa gui=NONE ctermfg=228
 	hi Visual       guifg=#ffffff guibg=#cccccc gui=NONE ctermfg=228 ctermbg=238
 	hi SpecialKey   guifg=#808080 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
-	hi Title        guifg=#a0b000 gui=UNDERLINE ctermfg=228
+	hi Title        guifg=#c0b009 gui=UNDERLINE ctermfg=228
 	hi Underlined   guifg=#dd9944 ctermfg=214
 	hi String       guifg=#555555 gui=none ctermfg=148
 
@@ -90,17 +90,17 @@ else
 	hi Constant     guifg=#404040 ctermfg=15
 	hi Boolean      guifg=#20a020 ctermfg=148
 
-	hi Identifier   guifg=#a0b000 ctermfg=228
+	hi Identifier   guifg=#c0b009 ctermfg=228
 
-	hi Statement    guifg=#a0b000 gui=NONE ctermfg=228
+	hi Statement    guifg=#c0b009 gui=NONE ctermfg=228
 	hi Conditional  guifg=#20a020 ctermfg=148
 	hi Repeat       guifg=#20a020 ctermfg=148
 	hi Label        guifg=#20a020 ctermfg=148
 	hi Exception    guifg=#20a020 ctermfg=148
 
-	hi Operator     guifg=#a0b000 ctermfg=15
+	hi Operator     guifg=#c0b009 ctermfg=15
 
-	hi PreProc      guifg=#a0b000 gui=NONE ctermfg=230
+	hi PreProc      guifg=#c0b009 gui=NONE ctermfg=230
 
 	hi Type         guifg=#555555 gui=NONE ctermfg=244
 
