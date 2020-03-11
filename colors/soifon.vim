@@ -71,7 +71,7 @@ else
 
 	" General colors
 	hi Cursor       guifg=#ffffff    guibg=#aabbaa gui=NONE ctermfg=244 ctermbg=235
-	hi Normal       guifg=#202020 guibg=#ffffff gui=NONE ctermfg=253 ctermbg=234
+	hi Normal       guifg=#222222 guibg=#ffffff gui=NONE ctermfg=253 ctermbg=234
 	hi NonText      guifg=#999999
 	hi LineNr       guifg=#999999 guibg=NONE gui=NONE ctermfg=244
 	hi CursorLineNr guifg=#cccccc guibg=NONE gui=NONE ctermfg=244
@@ -79,13 +79,13 @@ else
 	hi StatusLine   guifg=#aaaaaa guibg=#ffffff gui=NONE ctermfg=250
 	hi Folded       guibg=#505050 guifg=#aaaaaa gui=NONE ctermfg=228
 	hi Visual       guifg=#ffffff guibg=#cccccc gui=NONE ctermfg=228 ctermbg=238
-	hi SpecialKey   guifg=#808080 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
+	hi SpecialKey   guifg=#666666 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
 	hi Title        guifg=#c0b009 gui=UNDERLINE ctermfg=228
 	hi Underlined   guifg=#dd9944 ctermfg=214
-	hi String       guifg=#555555 gui=none ctermfg=148
+	hi String       guifg=#666666 gui=none ctermfg=148
 
 	" Syntax highlighting
-	hi Comment      guifg=#bbbbbb ctermfg=244
+	hi Comment      guifg=#aaaaaa ctermfg=244
 
 	hi Constant     guifg=#404040 ctermfg=15
 	hi Boolean      guifg=#20a020 ctermfg=148
