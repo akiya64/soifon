@@ -24,7 +24,7 @@ if &background ==# 'dark'
 	hi NonText      guifg=#909090 guibg=black gui=NONE ctermfg=238
 	hi LineNr       guifg=#707070 guibg=NONE gui=NONE ctermfg=244
 	hi CursorLineNr guifg=#e2e2e5 guibg=NONE gui=NONE ctermfg=244
-	hi CursorLine   guifg=NONE    guibg=#303030 gui=NONE ctermfg=253
+	hi CursorLine   guifg=NONE    guibg=#444444 gui=NONE ctermfg=253
 	hi StatusLine   guifg=#d3d3d5 guibg=black gui=NONE ctermfg=250
 	hi Folded       guibg=#fffe8e guifg=#aaaabb gui=NONE ctermfg=228
 	hi Visual       guifg=#fffe8e guibg=#3c414c gui=NONE ctermfg=228 ctermbg=238
@@ -55,9 +55,9 @@ if &background ==# 'dark'
 
 	hi Special      guifg=#ffbb6d gui=NONE ctermfg=214
 
-	hi Todo         guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
+	hi Todo         guifg=#000000 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
-	hi Error        guifg=#606060 guibg=#ff8989 gui=NONE ctermfg=208
+	hi Error        guifg=#000000 guibg=#ff8989 gui=NONE ctermfg=208
 	hi ErrorMsg     guifg=#000000 guibg=#ff8989 gui=NONE ctermfg=208
 	hi extrawhitespace     guifg=#000000 guibg=#ff8989 gui=NONE ctermfg=208
 
