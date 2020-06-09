@@ -83,6 +83,7 @@ else
 	hi Title        guifg=#c0b009 gui=UNDERLINE ctermfg=228
 	hi Underlined   guifg=#dd9944 ctermfg=214
 	hi String       guifg=#666666 gui=none ctermfg=148
+	hi SignColumn   guifg=NONE guibg=#ffffff gui=NONE ctermfg=228 ctermbg=238
 
 	" Syntax highlighting
 	hi Comment      guifg=#aaaaaa ctermfg=244
