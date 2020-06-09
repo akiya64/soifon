@@ -76,7 +76,7 @@ else
 	hi LineNr       guifg=#999999 guibg=NONE gui=NONE ctermfg=244
 	hi CursorLineNr guifg=#cccccc guibg=NONE gui=NONE ctermfg=244
 	hi CursorLine   guifg=NONE    guibg=#f5f5f5 gui=NONE ctermfg=253
-	hi StatusLine   guifg=#aaaaaa guibg=#ffffff gui=NONE ctermfg=250
+	hi StatusLine   guifg=#000000 guibg=#333333 gui=NONE ctermfg=250
 	hi Folded       guibg=#505050 guifg=#aaaaaa gui=NONE ctermfg=228
 	hi Visual       guifg=#ffffff guibg=#cccccc gui=NONE ctermfg=228 ctermbg=238
 	hi SpecialKey   guifg=#666666 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
