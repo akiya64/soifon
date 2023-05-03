@@ -1,6 +1,6 @@
-" Maintainer:   Kitami Akiya
-" Version:      1.0
-" Last Change:  December 14, 2015
+" Maintainer:   K Akiya
+" Version:      1.1
+" Last Change:  May 3, 2023
 " Credits:      This Color Scheme is forked from 'BusyBee' https://github.com/vim-scripts/BusyBee
 
 hi clear
@@ -66,8 +66,10 @@ if &background ==# 'dark'
 else
 	hi CursorColumn  guibg=#c0c0c0 ctermbg=234
 	hi MatchParen    guifg=#20a020 guibg=#ffffff gui=bold ctermfg=148 ctermbg=237 cterm=bold
-	hi Pmenu     guifg=#000000 guibg=#ffffff ctermfg=255 ctermbg=238
-	hi PmenuSel      guifg=#000000 guibg=#ffff70 ctermfg=255 ctermbg=228
+
+	hi PmenuSel      guifg=#666666 guibg=#ffff70 ctermfg=255 ctermbg=228
+	hi Pmenu         guifg=#20a020 guibg=#ffffff
+	hi NormalFloat   guifg=#000000 guibg=#ffffff
 
 	" General colors
 	hi Cursor       guifg=#ffffff    guibg=#aabbaa gui=NONE ctermfg=244 ctermbg=235
@@ -77,7 +79,7 @@ else
 	hi CursorLineNr guifg=#cccccc guibg=NONE gui=NONE ctermfg=244
 	hi CursorLine   guifg=NONE    guibg=#f5f5f5 gui=NONE ctermfg=253
 	hi StatusLine   guifg=#000000 guibg=#333333 gui=NONE ctermfg=250
-	hi Folded       guibg=#505050 guifg=#aaaaaa gui=NONE ctermfg=228
+	hi Folded       guibg=#666666 guifg=#aaaaaa gui=NONE ctermfg=228
 	hi Visual       guifg=#ffffff guibg=#cccccc gui=NONE ctermfg=228 ctermbg=238
 	hi SpecialKey   guifg=#666666 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
 	hi Title        guifg=#c0b009 gui=UNDERLINE ctermfg=228
