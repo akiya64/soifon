@@ -118,4 +118,11 @@ else
 	hi Search      guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
 	hi Directory      guifg=#c0b009 gui=NONE ctermfg=230
+
+	" diff
+	hi DiffAdd        guifg=#20a020 guibg=NONE
+    hi DiffChange     guifg=#dd9944 guibg=NONE
+    hi DiffDelete     guifg=#ff0000 guibg=NONE
+    hi DiffText       guifg=#ff0000 guibg=NONE
+
 endif
