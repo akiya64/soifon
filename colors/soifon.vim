@@ -29,8 +29,8 @@ if &background ==# 'dark'
 	hi Folded       guibg=#fffe8e guifg=#aaaabb gui=NONE ctermfg=228
 	hi Visual       guifg=#fffe8e guibg=#3c414c gui=NONE ctermfg=228 ctermbg=238
 	hi SpecialKey   guifg=#808080 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
-	hi Title        guifg=#fffe8e gui=UNDERLINE ctermfg=228
-	hi Underlined   guifg=#ffbb6d ctermfg=214
+	hi Title        guifg=#fffe8e ctermfg=228
+	hi Underlined   guifg=#fffe80 ctermfg=214
 	hi String       guifg=#a8a8a8 gui=none ctermfg=148
 
 	" Syntax highlighting
@@ -82,8 +82,8 @@ else
 	hi Folded       guibg=#666666 guifg=#aaaaaa gui=NONE ctermfg=228
 	hi Visual       guifg=#ffffff guibg=#cccccc gui=NONE ctermfg=228 ctermbg=238
 	hi SpecialKey   guifg=#666666 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
-	hi Title        guifg=#c0b009 gui=UNDERLINE ctermfg=228
-	hi Underlined   guifg=#dd9944 ctermfg=214
+	hi Title        guifg=#c0b009 gui=UNDERLINE guisp=#c0b009 ctermfg=228
+	hi Underlined   guifg=#c0b009 guisp=#c0b009 ctermfg=214
 	hi String       guifg=#666666 gui=none ctermfg=148
 	hi SignColumn   guifg=NONE guibg=#ffffff gui=NONE ctermfg=228 ctermbg=238
 
@@ -117,4 +117,5 @@ else
 
 	hi Search      guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
+	hi Directory      guifg=#c0b009 gui=NONE ctermfg=230
 endif
