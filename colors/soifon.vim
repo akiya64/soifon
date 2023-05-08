@@ -64,6 +64,10 @@ if &background ==# 'dark'
 	hi Search      guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
 else
+	hi Tabline guifg=#08080 guibg=#eeeeee gui=NONE
+	hi TablineFill guifg=#eeeeee guibg=#c0c0c0
+	hi TablineSel gui=NONE
+
 	hi CursorColumn  guibg=#c0c0c0 ctermbg=234
 	hi MatchParen    guifg=#20a020 guibg=#ffffff gui=bold ctermfg=148 ctermbg=237 cterm=bold
 
