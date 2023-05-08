@@ -129,4 +129,20 @@ else
     hi DiffDelete     guifg=#ff0000 guibg=NONE
     hi DiffText       guifg=#ff0000 guibg=NONE
 
+	" LSP
+	hi link @lsp.type.class Type
+	hi link @lsp.type.decorator Special
+	hi link @lsp.type.enum PreProc
+	hi link @lsp.type.enumMember PreProc
+	hi link @lsp.type.function PreProc
+	hi link @lsp.type.interface Type
+	hi link @lsp.type.macro Constant
+	hi link @lsp.type.method Constant
+	hi link @lsp.type.nameSpace Type
+	hi link @lsp.type.parametar Constant
+	hi link @lsp.type.property Constant
+	hi link @lsp.type.struct Title
+	hi link @lsp.type.type Type
+	hi link @lsp.type.typeParameter Type
+	hi link @lsp.type.variable Constant
 endif
