@@ -145,4 +145,7 @@ else
 	hi link @lsp.type.type Type
 	hi link @lsp.type.typeParameter Type
 	hi link @lsp.type.variable Constant
+
+	" PHP
+	hi link phpType Special
 endif
