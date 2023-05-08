@@ -74,17 +74,17 @@ else
 	" General colors
 	hi Cursor       guifg=#ffffff    guibg=#aabbaa gui=NONE ctermfg=244 ctermbg=235
 	hi Normal       guifg=#222222 guibg=#ffffff gui=NONE ctermfg=253 ctermbg=234
-	hi NonText      guifg=#999999
+	hi NonText      guifg=#c0c0c0
 	hi LineNr       guifg=#999999 guibg=NONE gui=NONE ctermfg=244
-	hi CursorLineNr guifg=#cccccc guibg=NONE gui=NONE ctermfg=244
+	hi CursorLineNr guifg=#333333 guibg=NONE gui=NONE ctermfg=244
 	hi CursorLine   guifg=NONE    guibg=#f5f5f5 gui=NONE ctermfg=253
 	hi StatusLine   guifg=#000000 guibg=#333333 gui=NONE ctermfg=250
 	hi Folded       guibg=#666666 guifg=#aaaaaa gui=NONE ctermfg=228
 	hi Visual       guifg=#ffffff guibg=#cccccc gui=NONE ctermfg=228 ctermbg=238
-	hi SpecialKey   guifg=#666666 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
+	hi SpecialKey   guifg=#a0a0a0 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
 	hi Title        guifg=#c0b009 gui=UNDERLINE guisp=#c0b009 ctermfg=228
 	hi Underlined   guifg=#c0b009 guisp=#c0b009 ctermfg=214
-	hi String       guifg=#666666 gui=none ctermfg=148
+	hi String       guifg=#222222 gui=none ctermfg=148
 	hi SignColumn   guifg=NONE guibg=#ffffff gui=NONE ctermfg=228 ctermbg=238
 
 	" Syntax highlighting
@@ -105,7 +105,7 @@ else
 
 	hi PreProc      guifg=#c0b009 gui=NONE ctermfg=230
 
-	hi Type         guifg=#555555 gui=NONE ctermfg=244
+	hi Type         guifg=#909090 gui=NONE ctermfg=244
 
 	hi Special      guifg=#dd9944 gui=NONE ctermfg=214
 
