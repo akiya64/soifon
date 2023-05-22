@@ -148,4 +148,26 @@ else
 
 	" PHP
 	hi link phpType Special
+	hi link htmlTag Constant
+	hi link htmlTagName Constant
+	hi link htmlString Type
+	hi link htmlEndTag Constant
+
+	" TypeScript
+	hi link typescriptMember Constant
+	hi link typescriptTypeReference Constant
+	hi link typescriptVariable Operator
+	hi link typescriptIdentifierName Special
+	hi link typescriptTypeBracket Type
+	hi link typescriptAliasDeclaration String
+	hi link typescriptUnion Special
+	hi link typescriptStatementKeyword Conditional
+	hi link typescriptGlobal Special
+	hi link typescriptBraces String
+	hi link typescriptBOMWindowMethod Statement
+
+	hi link tsxTag Special
+	hi link tsxCloseTag Special
+	hi link tsxTagName Special
+	hi link tsxIntrinsicTagName Special
 endif
