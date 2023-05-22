@@ -170,4 +170,11 @@ else
 	hi link tsxCloseTag Special
 	hi link tsxTagName Special
 	hi link tsxIntrinsicTagName Special
+
+	" TreeSitter
+	hi link @keyword.return Conditional
+	hi link @keyword.function Conditional
+	hi link @variable String
+	hi link @tag.delimiter Special
+	hi link @constractor Statement
 endif
