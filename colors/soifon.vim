@@ -172,9 +172,11 @@ else
 	hi link tsxIntrinsicTagName Special
 
 	" TreeSitter
+	hi link @type String
 	hi link @keyword.return Conditional
 	hi link @keyword.function Conditional
 	hi link @variable String
+	hi link @keyword LineNr
 	hi link @tag.delimiter Special
 	hi link @constractor Statement
 endif
