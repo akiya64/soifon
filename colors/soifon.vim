@@ -99,7 +99,7 @@ else
 
 	hi Identifier   guifg=#c0b009 ctermfg=228
 
-	hi Statement    guifg=#c0b009 gui=NONE ctermfg=228
+	hi Statement    guifg=#20a020 gui=NONE ctermfg=148
 	hi Conditional  guifg=#20a020 ctermfg=148
 	hi Repeat       guifg=#20a020 ctermfg=148
 	hi Label        guifg=#20a020 ctermfg=148
@@ -148,6 +148,7 @@ else
 
 	" PHP
 	hi link phpType Special
+	hi link phpStatement Statement
 	hi link htmlTag Constant
 	hi link htmlTagName Constant
 	hi link htmlString Type
