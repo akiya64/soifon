@@ -98,6 +98,8 @@ else
 	hi Boolean      guifg=#20a020 ctermfg=148
 
 	hi Identifier   guifg=#c0b009 ctermfg=228
+	hi Delimiter    guifg=#c0b009 ctermfg=228
+	hi Function     guifg=#c0b009 ctermfg=228
 
 	hi Statement    guifg=#20a020 gui=NONE ctermfg=148
 	hi Conditional  guifg=#20a020 ctermfg=148
@@ -148,11 +150,18 @@ else
 
 	" PHP
 	hi link phpType Special
+	hi link phpRegion Identifier
+	hi link phpDefine Statement
+	hi link phpIdentifier String
+	hi link phpVarSelector String
 	hi link phpStatement Statement
 	hi link htmlTag Constant
 	hi link htmlTagName Constant
 	hi link htmlString Type
 	hi link htmlEndTag Constant
+
+	" WP
+	hi link wpFunction Function
 
 	" TypeScript
 	hi link typescriptMember Constant
@@ -176,8 +185,13 @@ else
 	hi link @type String
 	hi link @keyword.return Conditional
 	hi link @keyword.function Conditional
-	hi link @variable String
-	hi link @keyword LineNr
+	hi link @keyword.conditional Conditional
+	hi link @keyword.repeat Conditional
+	hi link @keyword.Operator Conditional
+	hi link @variable Identifier
+	hi link @keyword Identifier
+	hi link @operator LineNr
 	hi link @tag.delimiter Special
 	hi link @constractor Statement
+	hi link @panctuation.bracket Special
 endif
