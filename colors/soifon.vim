@@ -98,7 +98,7 @@ else
 	hi Boolean      guifg=#20a020 ctermfg=148
 
 	hi Identifier   guifg=#c0b009 ctermfg=228
-	hi Delimiter    guifg=#c0b009 ctermfg=228
+	hi Delimiter    guifg=#dd9944 ctermfg=228
 	hi Function     guifg=#c0b009 ctermfg=228
 
 	hi Statement    guifg=#20a020 gui=NONE ctermfg=148
@@ -193,5 +193,7 @@ else
 	hi link @operator LineNr
 	hi link @tag.delimiter Special
 	hi link @constractor Statement
-	hi link @panctuation.bracket Special
+	hi link @variable.parameter Identifier
+	hi link @punctuation.bracket Special
+	hi link @punctuation.delimiter String
 endif
