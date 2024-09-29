@@ -18,8 +18,8 @@ Soifon forked ['BusyBee' color scheme](https://github.com/vim-scripts/BusyBee).
 
 ### Light Mode
 
-| --- | --- | --- |
 | Hex     | cterm | color |
+| --- | --- | --- |
 | #000000 |  | black |
 | #222222 |  | gray  |
 | #333333 |  |  |
