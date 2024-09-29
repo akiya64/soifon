@@ -64,11 +64,11 @@ if &background ==# 'dark'
 	hi Search      guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
 else
-	hi Tabline guifg=#08080 guibg=#eeeeee gui=NONE
-	hi TablineFill guifg=#eeeeee guibg=#c0c0c0
+	hi Tabline guifg=#222222 guibg=#eeeeee gui=NONE
+	hi TablineFill guifg=#eeeeee guibg=#cccccc
 	hi TablineSel gui=NONE
 
-	hi CursorColumn  guibg=#c0c0c0 ctermbg=234
+	hi CursorColumn  guibg=#cccccc ctermbg=234
 	hi MatchParen    guifg=#20a020 guibg=#ffffff gui=bold ctermfg=148 ctermbg=237 cterm=bold
 
 	hi PmenuSel      guifg=#666666 guibg=#ffff70 ctermfg=255 ctermbg=228
@@ -78,14 +78,14 @@ else
 	" General colors
 	hi Cursor       guifg=#ffffff    guibg=#aabbaa gui=NONE ctermfg=244 ctermbg=235
 	hi Normal       guifg=#222222 guibg=#ffffff gui=NONE ctermfg=253 ctermbg=234
-	hi NonText      guifg=#c0c0c0
+	hi NonText      guifg=#cccccc
 	hi LineNr       guifg=#999999 guibg=NONE gui=NONE ctermfg=244
 	hi CursorLineNr guifg=#333333 guibg=NONE gui=NONE ctermfg=244
 	hi CursorLine   guifg=NONE    guibg=#f5f5f5 gui=NONE ctermfg=253
-	hi StatusLine   guifg=#000000 guibg=#333333 gui=NONE ctermfg=250
+	hi StatusLine   guifg=#000000 guibg=#555555 gui=NONE ctermfg=250
 	hi Folded       guibg=#666666 guifg=#aaaaaa gui=NONE ctermfg=228
 	hi Visual       guifg=#ffffff guibg=#cccccc gui=NONE ctermfg=228 ctermbg=238
-	hi SpecialKey   guifg=#a0a0a0 guibg=NONE gui=NONE ctermfg=244 ctermbg=235
+	hi SpecialKey   guifg=#aaaaaa guibg=NONE gui=NONE ctermfg=244 ctermbg=235
 	hi Title        guifg=#c0b009 gui=UNDERLINE guisp=#c0b009 ctermfg=228
 	hi Underlined   guifg=#c0b009 guisp=#c0b009 ctermfg=214
 	hi String       guifg=#222222 gui=none ctermfg=148
@@ -94,7 +94,7 @@ else
 	" Syntax highlighting
 	hi Comment      guifg=#aaaaaa ctermfg=244
 
-	hi Constant     guifg=#404040 ctermfg=15
+	hi Constant     guifg=#444444 ctermfg=15
 	hi Boolean      guifg=#20a020 ctermfg=148
 
 	hi Identifier   guifg=#c0b009 ctermfg=228
@@ -111,17 +111,17 @@ else
 
 	hi PreProc      guifg=#c0b009 gui=NONE ctermfg=230
 
-	hi Type         guifg=#909090 gui=NONE ctermfg=244
+	hi Type         guifg=#999999 gui=NONE ctermfg=244
 
 	hi Special      guifg=#dd9944 gui=NONE ctermfg=214
 
-	hi Todo         guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
+	hi Todo         guifg=#222222 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
-	hi Error        guifg=#606060 guibg=#ff8989 gui=NONE ctermfg=208
+	hi Error        guifg=#666666 guibg=#ff8989 gui=NONE ctermfg=208
 	hi ErrorMsg     guifg=#000000 guibg=#ff8989 gui=NONE ctermfg=208
 	hi extrawhitespace     guifg=#ffffff guibg=#ff8989 gui=NONE ctermfg=208
 
-	hi Search      guifg=#303030 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
+	hi Search      guifg=#222222 guibg=#fff700 gui=NONE ctermfg=230 ctermbg=226
 
 	hi Directory      guifg=#c0b009 gui=NONE ctermfg=230
 
