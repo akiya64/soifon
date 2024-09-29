@@ -125,11 +125,14 @@ else
 
 	hi Directory      guifg=#c0b009 gui=NONE ctermfg=230
 
+	hi DiagnosticError guifg=#dd0000 guibg=NONE
+	hi DiagnosticUnderlineError guisp=#dd0000 gui=undercurl
+
 	" diff
 	hi DiffAdd        guifg=#20a020 guibg=NONE
     hi DiffChange     guifg=#dd9944 guibg=NONE
-    hi DiffDelete     guifg=#ff0000 guibg=NONE
-    hi DiffText       guifg=#ff0000 guibg=NONE
+    hi DiffDelete     guifg=#dd0000 guibg=NONE
+    hi DiffText       guifg=#dd0000 guibg=NONE
 
 	" LSP
 	hi link @lsp.type.class Type
